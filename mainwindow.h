@@ -20,20 +20,16 @@ public:
     cv::Mat image;
 private slots:
     void on_addfile_clicked();
-
     void on_pathimg_textChanged();
-
     void on_OpenImg_clicked();
-
     void printMat(cv::Mat);
-
     void on_img_2_linkActivated(const QString &link);
-
     void on_completa_clicked();
+
+    void on_filtro_medianas_clicked();
 
 private:
     Ui::MainWindow *ui;
-
 };
 
 #endif // MAINWINDOW_H
